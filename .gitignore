@@ -1,0 +1,7 @@
+node_modules
+coverage
+.husky/
+dist
+lib
+
+pnpm-lock.yaml
