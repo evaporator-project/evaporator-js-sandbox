@@ -1,6 +1,6 @@
 {
   "name": "evaporator-js-sandbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
@@ -13,21 +13,20 @@
   },
   "types": "./lib/",
   "engines": {
-    "node": ">=14",
-    "pnpm": ">=3"
+    "node": ">=14"
   },
   "scripts": {
     "lint": "eslint --ext .ts,.js --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .ts,.js --ignore-path .gitignore .",
-    "test": "pnpm exec jest",
-    "build": "pnpm exec tsup",
-    "clean": "pnpm tsc --build --clean",
-    "prepublish": "pnpm run build",
-    "do-lint": "pnpm run lint",
-    "do-lintfix": "pnpm run lintfix",
-    "do-typecheck": "pnpm exec tsc --noEmit",
-    "do-build-prod": "pnpm run build",
-    "do-test": "pnpm run test"
+    "test": "npm exec jest",
+    "build": "npm exec tsup",
+    "clean": "npm tsc --build --clean",
+    "prepublish": "npm run build",
+    "do-lint": "npm run lint",
+    "do-lintfix": "npm run lintfix",
+    "do-typecheck": "npm exec tsc --noEmit",
+    "do-build-prod": "npm run build",
+    "do-test": "npm run test"
   },
   "keywords": [
     "sandbox",
