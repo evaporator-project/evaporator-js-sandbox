@@ -1,6 +1,6 @@
 {
   "name": "evaporator-js-sandbox",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
@@ -12,6 +12,7 @@
     }
   },
   "types": "./lib/",
+  "files": ["lib"],
   "engines": {
     "node": ">=14"
   },
